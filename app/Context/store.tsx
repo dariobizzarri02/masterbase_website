@@ -1,27 +1,15 @@
 'use client'
 
-import { Dispatch, SetStateAction, createContext, useContext, useState } from "react";
+import { createContext, useContext } from "react";
 
-interface Context {
-	character: string,
-	setCharacter: Dispatch<SetStateAction<string>>,
-	author: string,
-	setAuthor: Dispatch<SetStateAction<string>>
-}
+interface Context {}
 
-const GlobalContext = createContext<Context>({
-	character: '',
-	setCharacter: () => {},
-	author: '',
-	setAuthor: () => {}
-});
+const GlobalContext = createContext<Context>({});
 
 export const GlobalContextProvider = ({ children }: { children: React.ReactNode }) => {
-	const [character, setCharacter] = useState<string>('000000000000');
-	const [author, setAuthor] = useState<string>('000000000000');
 
 	return (
-		<GlobalContext.Provider value={{ character, setCharacter, author, setAuthor }}>
+		<GlobalContext.Provider value={{}}>
 			{children}
 		</GlobalContext.Provider>
 	);
