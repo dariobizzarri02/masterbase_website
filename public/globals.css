@@ -65,6 +65,28 @@ body {
     padding-left: 3.75cm;
 }
 
+.feeditem {
+    display: block;
+    font-family: 'Roboto';
+    margin: 2cm;
+    padding: 1cm;
+    text-align: left;
+    background-color: rgba(10, 25, 46, 0.75);
+    border-radius: 5mm;
+}
+
+.feeditem img {
+    margin-right: 1cm;
+}
+
+.feedblock {
+    display: inline-block;
+}
+
+.feeditem h3 {
+    text-align: left;
+}
+
 .sociallink {
     display: inline-block;
     height: 2cm;
@@ -104,6 +126,11 @@ nav {
 .navbutton {
     margin-left: 1cm;
     margin-right: 1cm;
+    transition: 0.1s;
+}
+
+.navbutton:hover {
+    transform: scale(1.1);
 }
 
 h1 {

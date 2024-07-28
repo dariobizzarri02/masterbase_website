@@ -13,9 +13,9 @@ export function MainTitle({title, subtitle}: {title: string, subtitle: string}) 
 
 export function SocialLink({href, title, file}: {href: string, title: string, file: string}) {
     return (
-        <Link className="sociallink" href={href}>
-                <img className="socialicon" src={file} alt={title}/>
-                {title}
+        <Link className="sociallink" href={href} target="_blank">
+            <img className="socialicon" src={file} alt={title}/>
+            {title}
         </Link>
     );
 }
@@ -24,8 +24,8 @@ export function NavBar({links}: {links: {href: string, title: string}[]}) {
     return (
         <nav>
             {links.map(({href, title}) => (
-                <Link className="navbutton" key={title} href={href}>
-                    {title}
+                <Link key={title} href={href}>
+                    <button className="navbutton">{title}</button>
                 </Link>
             ))}
         </nav>
@@ -60,4 +60,29 @@ export function BackgroundVideo({src}: {src: string}) {
             <source src={src} type="video/mp4"/>
         </video>
     );
+}
+
+function designateLink(item: any) {
+    // order of priority: youtube_video, 
+}
+
+export function FeedItem({item}: {item: any}) {
+    const link = designateLink(item);
+    // youtube video pulled from api with thumbnail, title, description, link and date
+    return (
+        <Link className="feeditem" href={item.youtube_video} target="_blank">
+            <div className="feedblock">
+                <img src={item.thumbnail} alt={item.display}/>
+                <p>{ToDate(item.timestamp)}</p>
+            </div>
+            <div className="feedblock">
+                <h3>{item.display}</h3>
+                <p>{item.description}</p>
+            </div>
+        </Link>
+    );
+}
+
+export function ToDate(date: string) {
+    return new Date(date).toLocaleDateString();
 }
