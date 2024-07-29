@@ -62,6 +62,14 @@ export function BackgroundVideo({src}: {src: string}) {
     );
 }
 
+export function Video({src}: {src: string}) {
+    return (
+        <video className="video" autoPlay loop>
+            <source src={src} type="video/mp4"/>
+        </video>
+    );
+}
+
 function designateLink(item: any) {
     // order of priority: youtube_video, 
 }

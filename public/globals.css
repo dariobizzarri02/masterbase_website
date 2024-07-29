@@ -4,9 +4,37 @@
 
 @font-face {
     font-family: 'Moderniz';
-    src: url('/Moderniz.otf');
+    src: url('/Moderniz/Moderniz.otf');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/Roboto/Roboto-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/Roboto/Roboto-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
 }
 
 :root {
@@ -27,6 +55,44 @@ body {
     color: white;
 }
 
+.homebutton {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    text-align: center;
+    padding-top: 2cm;
+    padding-bottom: 10cm;
+    font-size: 1cm;
+    background-color: rgb(0, 44, 109);
+    border: 5px solid rgb(255, 255, 255);
+    width: 12cm;
+    margin: 0.5cm;
+    padding: 0.25cm;
+    margin-top: 15cm;
+    margin-bottom: 2cm;
+    display: block;
+}
+
+.playbutton {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    text-align: center;
+    padding-top: 2cm;
+    padding-bottom: 10cm;
+    font-size: 1cm;
+    background-color: rgb(0, 44, 109);
+    border: 5px solid rgb(255, 255, 255);
+    width: 12cm;
+    margin: 0.5cm;
+    padding: 0.25cm;
+    margin-top: 15cm;
+    margin-bottom: 2cm;
+    display: block;
+}
+
 .walloftext {
     font-family: 'Roboto';
     font-weight: normal;
@@ -34,7 +100,6 @@ body {
     font-size: 1.5rem;
     padding-left: 8cm;
     padding-right: 8cm;
-    padding-top: 15cm;
     padding-bottom: 5cm;
     text-align: justify;
 }
@@ -45,6 +110,14 @@ body {
     width: 100%;
     transform: scale(1.1);
     filter: blur(5px) brightness(0.5) opacity(0.75);
+}
+
+.video {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .logo {
