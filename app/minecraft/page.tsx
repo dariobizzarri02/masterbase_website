@@ -12,7 +12,7 @@ export default function Minecraft() {
         <h1>MASTERCRAFT</h1>
         <h2>IP: mc.masterbaseguild.it</h2>
         <h2>Version: 1.20.1</h2>
-        <Link className='map-button' href="/map">
+        <Link className='map-button' href="/minecraft/map">
             View Map
         </Link>
         <div className="button-container">
