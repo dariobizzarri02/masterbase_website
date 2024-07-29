@@ -83,6 +83,34 @@ export function FeedItem({item}: {item: any}) {
     );
 }
 
+export function TeamItem({item}: {item: any}) {
+    // alternate between left and right alignment
+    const isLeft = item.id % 2 === 0;
+    // display, roles, thumbnail
+    if(isLeft) return (
+        <div className="teamitem">
+            <div className="teamblock">
+                <img src={process.env.NEXT_PUBLIC_BACKEND_ENDPOINT+"/team/"+item.thumbnail} alt={item.display}/>
+            </div>
+            <div className="teamblock">
+                <h3>{item.display}</h3>
+                <p>{item.roles}</p>
+            </div>
+        </div>
+    );
+    return (
+        <div className="teamitemright">
+            <div className="teamblock">
+                <h3>{item.display}</h3>
+                <p>{item.roles}</p>
+            </div>
+            <div className="teamblock">
+                <img src={process.env.NEXT_PUBLIC_BACKEND_ENDPOINT+"/team/"+item.thumbnail} alt={item.display}/>
+            </div>
+        </div>
+    );
+}
+
 export function ToDate(date: string) {
     return new Date(date).toLocaleDateString();
 }
