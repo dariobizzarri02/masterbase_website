@@ -22,7 +22,7 @@ export default function Overview() {
 
     return (<>
         <HomeLink/>
-        <Video src={process.env.NEXT_PUBLIC_BACKEND_ENDPOINT+"/static/masterbase.mp4"}/>
+        <Video src={"https://projectdaimon-public.s3.eu-south-1.amazonaws.com/masterbase.mp4"}/>
         <button id="play" className="playbutton" onClick={handlePlay}>Play</button>
     </>);
 
