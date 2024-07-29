@@ -5,7 +5,7 @@ import axios from "axios";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-export default function Home() {
+export default function Team() {
 
     const [team, setTeam] = useState<any[]>([]);
 

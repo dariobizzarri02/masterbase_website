@@ -83,6 +83,11 @@ export function FeedItem({item}: {item: any}) {
     );
 }
 
+export function ToDate(timestamp: string) {
+    const date = new Date(timestamp);
+    return date.toDateString();
+}
+
 export function TeamItem({item}: {item: any}) {
     // alternate between left and right alignment
     const isLeft = item.id % 2 === 0;
@@ -111,6 +116,12 @@ export function TeamItem({item}: {item: any}) {
     );
 }
 
-export function ToDate(date: string) {
-    return new Date(date).toLocaleDateString();
+export function JobsItem({item}: {item: any}) {
+    // display, description
+    return (
+        <div className="jobsitem">
+            <h3>{item.display}</h3>
+            <p>{item.description}</p>
+        </div>
+    );
 }

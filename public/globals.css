@@ -137,6 +137,21 @@ body {
     font-size: 4rem;
 }
 
+.jobsitem {
+    display: block;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    margin: 2cm;
+    padding: 1cm;
+    text-align: left;
+    background-color: rgba(6, 15, 27, 0.75);
+    border-radius: 5mm;
+}
+
+.jobsitem h3 {
+    text-align: left;
+}
+
 .sociallink {
     display: inline-block;
     height: 2cm;
