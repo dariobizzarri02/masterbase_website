@@ -13,7 +13,7 @@ export default function Home() {
     ];
 
     return (<>
-        <BackgroundVideo src={"https://projectdaimon-public.s3.eu-south-1.amazonaws.com/masterbase.mp4"}/>
+        <BackgroundVideo src={process.env.NEXT_PUBLIC_S3_ENDPOINT+"masterbase.mp4"}/>
         <NavBar links={links}/>
         <MainTitle title="MasterBase" subtitle="Guild"/>
         <Logo/>

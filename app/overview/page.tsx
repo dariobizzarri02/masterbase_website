@@ -1,15 +1,28 @@
 'use client'
 
 import { HomeLink, Video } from "@/app/commons";
+import { useEffect } from "react";
 
 export default function Overview() {
 
-    const links = [
-        {href: "/links", title: "Link Tree"},
-        {href: "/blog", title: "Blog"},
-        {href: "/minecraft", title: "MasterCraft"},
-        {href: "/team", title: "Meet the Team"},
-    ];
+    useEffect(() => {
+        const videoElement = document.querySelector("video");
+        const playButton = document.getElementById("play");
+        if (videoElement && playButton) {
+            const handlePlayB = () => {
+                playButton.style.display = "none";
+            }
+            videoElement.addEventListener("play", handlePlayB);
+            if (videoElement.paused) {
+                playButton.style.display = "block";
+            }
+
+            return () => {
+                videoElement.removeEventListener("play", handlePlayB);
+            }
+        }
+    }
+    , []);
 
     function handlePlay() {
         document?.querySelector("video")?.play();
@@ -22,7 +35,7 @@ export default function Overview() {
 
     return (<>
         <HomeLink/>
-        <Video src={"https://projectdaimon-public.s3.eu-south-1.amazonaws.com/masterbase.mp4"}/>
+        <Video src={process.env.NEXT_PUBLIC_S3_ENDPOINT+"masterbase.mp4"}/>
         <button id="play" className="playbutton" onClick={handlePlay}>Play</button>
     </>);
 

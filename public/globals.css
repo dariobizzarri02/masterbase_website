@@ -90,10 +90,22 @@ body {
     padding: 0.25cm;
     margin-top: 15cm;
     margin-bottom: 2cm;
-    display: block;
+    display: none;
 }
 
 .walloftext {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding-left: 8cm;
+    padding-right: 8cm;
+    padding-bottom: 5cm;
+    text-align: justify;
+}
+
+.walloftextv {
+    margin-top: 15cm;
     font-family: 'Roboto';
     font-weight: normal;
     font-style: normal;
@@ -126,6 +138,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 1cm;
+}
+
+.title {
+    text-align: center;
+    padding-top: 1cm;
+    padding-bottom: 0;
 }
 
 .maintitle {
