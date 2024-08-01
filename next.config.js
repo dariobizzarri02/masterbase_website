@@ -1,15 +1,23 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     //output: 'export',
-    async redirects()
+    async rewrites()
     {
         return [
             //minecraft map
             {
                 source: '/minecraft/map',
-                destination: 'http://map.masterbaseguild.it:8123',
-                permanent: false
+                destination: 'http://map.masterbaseguild.it:8123'
             },
+            {
+                source: '/minecraft/:path*',
+                destination: 'http://map.masterbaseguild.it:8123/:path*'
+            }
+        ]
+    },
+    async redirects()
+    {
+        return [
             //discord
             {
                 source: '/links/discord',
@@ -81,7 +89,7 @@ const nextConfig = {
                 source: '/versary/subscriptions',
                 destination: 'https://docs.google.com/forms/d/e/1FAIpQLScP7-Teh2LMVL_bfZb-85PT9F98SxB1MB_FUwsTkn5a5radVQ/viewanalytics',
                 permanent: false
-            },
+            }
         ]
     },
 }
