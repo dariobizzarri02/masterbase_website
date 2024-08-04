@@ -13,7 +13,7 @@ export default function Overview() {
 
     return (<>
         <HomeLink/>
-        <BackgroundVideo src={process.env.NEXT_PUBLIC_S3_ENDPOINT+"versary.mp4"}/>
+        <img className="bg" src="/versary.jpg" alt="background"/>
         <NavBar links={links}/>
         <h1 className="title">VERSARY 2024</h1>
         <h2>Celebrating 7 years of MasterBase</h2>
