@@ -61,16 +61,16 @@ body {
     transform: translate(-50%, 0);
     width: 100%;
     text-align: center;
-    padding-top: 2cm;
-    padding-bottom: 10cm;
-    font-size: 1cm;
+    padding-top: 5vw;
+    padding-bottom: 24vw;
+    font-size: 2vw;
     background-color: rgb(0, 44, 109);
-    border: 5px solid rgb(255, 255, 255);
-    width: 12cm;
-    margin: 0.5cm;
-    padding: 0.25cm;
-    margin-top: 15cm;
-    margin-bottom: 2cm;
+    border: 0.5vw solid rgb(255, 255, 255);
+    width: 28vw;
+    margin: 1vw;
+    padding: 1vw;
+    margin-top: 35vw;
+    margin-bottom: 5vw;
     display: block;
 }
 
@@ -80,16 +80,16 @@ body {
     transform: translate(-50%, 0);
     width: 100%;
     text-align: center;
-    padding-top: 2cm;
-    padding-bottom: 10cm;
-    font-size: 1cm;
+    padding-top: 5vw;
+    padding-bottom: 24vw;
+    font-size: 2vw;
     background-color: rgb(0, 44, 109);
-    border: 5px solid rgb(255, 255, 255);
-    width: 12cm;
-    margin: 0.5cm;
-    padding: 0.25cm;
-    margin-top: 15cm;
-    margin-bottom: 2cm;
+    border: 0.5vw solid rgb(255, 255, 255);
+    width: 28vw;
+    margin: 1vw;
+    padding: 1vw;
+    margin-top: 35vw;
+    margin-bottom: 5vw;
     display: none;
 }
 
@@ -97,22 +97,22 @@ body {
     font-family: 'Roboto';
     font-weight: normal;
     font-style: normal;
-    font-size: 1.5rem;
-    padding-left: 8cm;
-    padding-right: 8cm;
-    padding-bottom: 5cm;
+    font-size: 2vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 12vw;
     text-align: justify;
 }
 
 .walloftextv {
-    margin-top: 15cm;
+    margin-top: 35vw;
     font-family: 'Roboto';
     font-weight: normal;
     font-style: normal;
-    font-size: 1.5rem;
-    padding-left: 8cm;
-    padding-right: 8cm;
-    padding-bottom: 5cm;
+    font-size: 2vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 12vw;
     text-align: justify;
 }
 
@@ -120,8 +120,10 @@ body {
     position: fixed;
     z-index: -2;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     transform: scale(1.1);
-    filter: blur(5px) brightness(0.5) opacity(0.75);
+    filter: blur(0.5vw) brightness(0.5) opacity(0.75);
 }
 
 .video {
@@ -133,41 +135,41 @@ body {
 }
 
 .logo {
-    height: 6cm;
+    height: 14vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1cm;
+    padding-top: 2vw;
 }
 
 .title {
     text-align: center;
-    padding-top: 1cm;
+    padding-top: 2vw;
     padding-bottom: 0;
 }
 
 .maintitle {
-    padding-bottom: 0cm;
+    padding-bottom: 0vw;
 }
 
 .mainsubtitle {
     text-align: center;
-    letter-spacing: 4cm;
-    padding-left: 3.75cm;
+    letter-spacing: 9vw;
+    padding-left: 8vw;
 }
 
 .feeditem {
     display: block;
     font-family: 'Roboto';
-    margin: 2cm;
-    padding: 1cm;
+    margin: 5vw;
+    padding: 2vw;
     text-align: left;
     background-color: rgba(6, 15, 27, 0.75);
-    border-radius: 5mm;
+    border-radius: 8vw;
 }
 
 .feeditem img {
-    margin-right: 1cm;
+    margin-right: 2vw;
 }
 
 .feedblock {
@@ -181,12 +183,12 @@ body {
 .teamitem {
     display: block;
     font-family: 'Roboto';
-    font-size: 1.5rem;
-    margin: 2cm;
-    padding: 1cm;
+    font-size: 1.5vw;
+    margin: 5vw;
+    padding: 2vw;
     text-align: left;
     background-color: rgba(6, 15, 27, 0.75);
-    border-radius: 5mm;
+    border-radius: 8vw;
 }
 
 .teamblock {
@@ -194,49 +196,49 @@ body {
 }
 
 .teamitem img {
-    height: 15cm;
-    margin-right: 1cm;
-    border-radius: 5mm;
+    height: 35vw;
+    margin-right: 2vw;
+    border-radius: 8vw;
 }
 
 .teamitem h3 {
     text-align: left;
     font-family: 'Moderniz';
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 .teamitemright {
     display: block;
     font-family: 'Roboto';
-    font-size: 1.5rem;
-    margin: 2cm;
-    padding: 1cm;
+    font-size: 1.5vw;
+    margin: 5vw;
+    padding: 2vw;
     text-align: right;
     background-color: rgba(6, 15, 27, 0.75);
-    border-radius: 5mm;
+    border-radius: 8vw;
 }
 
 .teamitemright img {
-    height: 15cm;
-    margin-left: 1cm;
-    border-radius: 5mm;
+    height: 35vw;
+    margin-left: 2vw;
+    border-radius: 8vw;
 }
 
 .teamitemright h3 {
     text-align: right;
     font-family: 'Moderniz';
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 .jobsitem {
     display: block;
     font-family: 'Roboto';
-    font-size: 1.5rem;
-    margin: 2cm;
-    padding: 1cm;
+    font-size: 1.5vw;
+    margin: 5vw;
+    padding: 2vw;
     text-align: left;
     background-color: rgba(6, 15, 27, 0.75);
-    border-radius: 5mm;
+    border-radius: 8vw;
 }
 
 .jobsitem h3 {
@@ -245,27 +247,27 @@ body {
 
 .sociallink {
     display: inline-block;
-    height: 2cm;
-    line-height: 2cm;
+    height: 5vw;
+    line-height: 5vw;
 }
 
 .socialicon {
     display: inline-block;
-    height: 1cm;
-    margin-right: 0.5cm;
+    height: 2vw;
+    margin-right: 1vw;
 }
 
 .homelink {
-    width: 7rem;
-    height: 7rem;
+    width: 7vw;
+    height: 7vw;
     position: fixed;
-    left: 0rem;
-    top: 0rem;
+    left: 0vw;
+    top: 0vw;
 }
 
 .homelink img {
-    width: 5rem;
-    margin: 1rem;
+    width: 5vw;
+    margin: 1vw;
     transition: 0.1s;
 }
 
@@ -275,14 +277,15 @@ body {
 
 nav {
     text-align: center;
-    padding-top: 1cm;
-    padding-bottom: 1cm;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 .navbutton {
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-left: 2vw;
+    margin-right: 2vw;
     transition: 0.1s;
+    font-size: 2vw;
 }
 
 .navbutton:hover {
@@ -290,25 +293,25 @@ nav {
 }
 
 h1 {
-    font-size: 3cm;
+    font-size: 7vw;
     text-align: center;
-    padding-bottom: 2cm;
+    padding-bottom: 5vw;
 }
 
 h2 {
-    font-size: 1cm;
+    font-size: 2vw;
     text-align: center;
 }
 
 h3 {
-    font-size: 0.8cm;
+    font-size: 0.19vw;
     text-align: center;
-    padding-top: 1cm;
+    padding-top: 2vw;
 }
 
 ul {
     text-align: center;
-    padding-bottom: 5cm;
+    padding-bottom: 12vw;
 }
 
 .color-filter {
@@ -325,15 +328,15 @@ ul {
     transform: translate(-50%, 0);
     width: 100%;
     text-align: center;
-    padding-top: 2cm;
-    padding-bottom: 10cm;
-    font-size: 1cm;
+    padding-top: 5vw;
+    padding-bottom: 24vw;
+    font-size: 2vw;
     background-color: rgb(0, 44, 109);
-    border: 5px solid rgb(255, 255, 255);
-    width: 12cm;
-    margin: 0.5cm;
-    padding: 0.25cm;
-    margin-bottom: 5cm;
+    border: 0.5vw solid rgb(255, 255, 255);
+    width: 28vw;
+    margin: 1vw;
+    padding: 1vw;
+    margin-bottom: 12vw;
     display: block;
 }
 
@@ -347,8 +350,8 @@ ul {
     transform: translate(-50%, 0);
     width: 100%;
     text-align: center;
-    padding-top: 2cm;
-    padding-bottom: 10cm;
+    padding-top: 5vw;
+    padding-bottom: 24vw;
 }
 
 .button-column {
@@ -356,12 +359,12 @@ ul {
 }
 
 .client-button {
-    font-size: 1cm;
+    font-size: 2vw;
     background-color: rgb(0, 44, 109);
-    border: 5px solid rgb(255, 255, 255);
-    width: 12cm;
-    margin: 0.5cm;
-    padding: 0.25cm;
+    border: 0.5vw solid rgb(255, 255, 255);
+    width: 28vw;
+    margin: 1vw;
+    padding: 1vw;
     display: block;
 }
 
@@ -373,7 +376,7 @@ ul {
     display: inline-block;
     background-color: #f16436;
     color: black;
-    width: 10cm;
+    width: 24vw;
 }
 
 .curseforge-button:hover {
@@ -384,7 +387,7 @@ ul {
     display: inline-block;
     background-color: #1b1b1b;
     color: #1bd96b;
-    width: 10cm;
+    width: 24vw;
 }
 
 .modrinth-button:hover {
@@ -392,29 +395,29 @@ ul {
 }
 
 .curseforge-icon {
-    height: 1cm;
+    height: 2vw;
     display: inline-block;
-    margin-right: 0.5cm;
-    margin-top: 0.2cm;
-    margin-bottom: 0.2cm;
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
 }
 
 .modrinth-icon {
-    height: 0.8cm;
+    height: 0.19vw;
     display: inline-block;
-    margin-right: 0.5cm;
-    margin-top: 0.3cm;
-    margin-bottom: 0.3cm;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .map-button {
-    font-size: 1cm;
+    font-size: 2vw;
     text-align: center;
     background-color: rgb(0, 109, 64);
-    border: 5px solid rgb(255, 255, 255);
-    width: 12cm;
-    margin-top: 2cm;
-    padding: 0.25cm;
+    border: 0.5vw solid rgb(255, 255, 255);
+    width: 28vw;
+    margin-top: 5vw;
+    padding: 1vw;
     display: block;
     position: relative;
     left: 50%;
