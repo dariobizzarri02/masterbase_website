@@ -13,7 +13,7 @@ export default function Overview() {
 
     return (<>
         <HomeLink/>
-        <img className="bg" src="/versary.jpg" alt="background"/>
+        <img className="bg bgplus" src="/versary.jpg" alt="background"/>
         <NavBar links={links}/>
         <h1 className="title">VERSARY 2024</h1>
         <h2>Festeggiando 7 anni di MasterBase</h2>
@@ -23,12 +23,12 @@ export default function Overview() {
             <br/>
             E per il terzo anno di fila, siamo lieti di presentarvi il Versary, la festa ufficiale della gilda.
         </p>
-        <h2>Dove e quando?</h2>
+        <h2 className="wotitle">Dove e quando?</h2>
         <p className="walloftextv">
             L&apos;evento si terrà a Reggio Emilia da sabato 21 a domenica 22 settembre 2024.
             Ora di ritrovo e luogo preciso verranno comunicati in seguito sul gruppo e sul canale WhatsApp ufficiali dell&apos;evento.
         </p>
-        <h2>Features</h2>
+        <h2 className="wotitle">Features</h2>
         <p className="walloftextv">
             Tra le features dell&apos;evento contiamo:
             <br/>
@@ -49,7 +49,7 @@ export default function Overview() {
             <br/>
             - Il giorno dopo, giro della città e pranzo a base di sushi!
         </p>
-        <h2>Iscrizione</h2>
+        <h2 className="wotitle">Iscrizione</h2>
         <p className="walloftextv">
             Per iscrivervi all&apos;evento, compilate il modulo di iscrizione che trovate <a className="inline" href="/versary/subscribe">qui</a>.
             <br/>
@@ -60,7 +60,7 @@ export default function Overview() {
             A seguito della compilazione del modulo, qualora il vostro indirizzo mail venga riconosciuto come valido dallo Staff, verrete aggiunti al gruppo e al canale WhatsApp ufficiali dell&apos;evento.
             Se non venite aggiunti entro tre giorni dalla compilazione del modulo, contattate Entity su WhatsApp o su Discord (@mb_entity), eventualmente fornendo il vostro numero di telefono.
         </p>
-        <h2>Occorrente</h2>
+        <h2 className="wotitle">Occorrente</h2>
         <p className="walloftextv">
             - (FACOLTATIVO) Snack e bevande, o soldi per acquistarli.
             <br/>
@@ -68,7 +68,7 @@ export default function Overview() {
             <br/>
             - Per chi partecipa al pranzo del giorno dopo, soldi per il sushi.
         </p>
-        <h2>Pagamenti</h2>
+        <h2 className="wotitle">Pagamenti</h2>
         <p className="walloftextv">
             A breve verrà creato il fondo PayPal ufficiale dell&apos;evento, dove potrete versare i soldi per la vostra iscrizione.
             <br/>
@@ -84,7 +84,7 @@ export default function Overview() {
             <br/>
             - Logo dorsale sulla maglietta: € 6
         </p>
-        <h2>Vi aspettiamo numerosi!</h2>
+        <h2 className="wotitle">Vi aspettiamo numerosi!</h2>
         <div className="pagefoot"/>
     </>);
 
