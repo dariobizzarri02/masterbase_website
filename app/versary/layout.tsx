@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
+import Head from 'next/head'
 
 export const metadata: Metadata = {
-  icons: [
-    { url: '/logo_downscaled_2.png', type: 'image/png', sizes: '750x750' },
-  ],
   title: 'Versary 2024 - MasterBase',
   description: 'Festeggiando 7 anni di MasterBase',
 }
@@ -15,6 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <meta property="og:image" content="/logo.png" />
+      </Head>
       <body>
         {children}
       </body>
