@@ -55,6 +55,10 @@ body {
     color: white;
 }
 
+.inline {
+    color: rgb(149, 142, 255);
+}
+
 .homebutton {
     position: relative;
     left: 50%;
@@ -104,16 +108,24 @@ body {
     text-align: justify;
 }
 
-.walloftextv {
+.textspace {
     margin-top: 35vw;
+}
+
+.walloftextv {
     font-family: 'Roboto';
     font-weight: normal;
     font-style: normal;
-    font-size: 2vh;
+    font-size: 3vh;
+    padding-top: 4vw;
     padding-left: 8vw;
     padding-right: 8vw;
+    padding-bottom: 4vw;
+    text-align: center;
+}
+
+.pagefoot {
     padding-bottom: 12vw;
-    text-align: justify;
 }
 
 .bg {
