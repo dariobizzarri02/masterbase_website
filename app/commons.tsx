@@ -70,6 +70,19 @@ export function Video({src}: {src: string}) {
     );
 }
 
+export function YouTubeVideo({src}: {src: string}) {
+    const embedUrl = `https://www.youtube.com/embed/${src}?autoplay=1&loop=1&playlist=${src}`;
+    return (
+        <iframe
+            className="video"
+            src={embedUrl}
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+            title="YouTube Video"
+        ></iframe>
+    );
+}
+
 function designateLink(item: any) {
     // order of priority: youtube_video, 
 }

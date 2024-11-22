@@ -1,6 +1,6 @@
 'use client'
 
-import { HomeLink, Video } from "@/app/commons";
+import { HomeLink, YouTubeVideo } from "@/app/commons";
 import { useEffect } from "react";
 
 export default function Overview() {
@@ -35,7 +35,7 @@ export default function Overview() {
 
     return (<>
         <HomeLink/>
-        <Video src={process.env.NEXT_PUBLIC_S3_ENDPOINT+"masterbase.mp4"}/>
+        <YouTubeVideo src={"_cgu1AI6AZo"}/>
         <button id="play" className="playbutton" onClick={handlePlay}>Play</button>
     </>);
 

@@ -7,11 +7,11 @@ const nextConfig = {
             //minecraft map
             {
                 source: '/minecraft/map',
-                destination: 'http://map.masterbaseguild.it:8123'
+                destination: 'http://map.vanilla.masterbaseguild.it:8123'
             },
             {
                 source: '/minecraft/:path*',
-                destination: 'http://map.masterbaseguild.it:8123/:path*'
+                destination: 'http://map.vanilla.masterbaseguild.it:8123/:path*'
             }
         ]
     },

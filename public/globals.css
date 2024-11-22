@@ -101,11 +101,15 @@ body {
     font-family: 'Roboto';
     font-weight: normal;
     font-style: normal;
-    font-size: 2vh;
-    padding-left: 8vw;
-    padding-right: 8vw;
-    padding-bottom: 12vw;
+    font-size: 3vh;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    padding-bottom: 14vw;
     text-align: justify;
+}
+
+.walloftext p {
+    padding-bottom: 2vw;
 }
 
 .textspace {
@@ -194,6 +198,8 @@ body {
 
 .feeditem h3 {
     text-align: left;
+    font-family: 'Moderniz';
+    font-size: 1vw;
 }
 
 .teamitem {
