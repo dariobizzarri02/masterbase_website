@@ -264,6 +264,12 @@ body {
 }
 
 .jobsitem h3 {
+    font-size: 2vw;
+    text-align: left;
+}
+
+.jobsitem p {
+    font-size: 1vw;
     text-align: left;
 }
 
@@ -331,7 +337,7 @@ h2 {
 }
 
 h3 {
-    font-size: 0.19vw;
+    font-size: 1vw;
     text-align: center;
     padding-top: 2vw;
 }

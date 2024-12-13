@@ -63,6 +63,7 @@ export function BackgroundVideo({src}: {src: string}) {
 }
 
 export function Video({src}: {src: string}) {
+    // set volume to 0.5
     return (
         <video className="video" autoPlay loop>
             <source src={src} type="video/mp4"/>

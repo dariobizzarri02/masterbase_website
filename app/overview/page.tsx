@@ -1,12 +1,16 @@
 'use client'
 
-import { HomeLink, YouTubeVideo } from "@/app/commons";
+import { HomeLink, Video } from "@/app/commons";
 import { useEffect } from "react";
 
 export default function Overview() {
 
     useEffect(() => {
         const videoElement = document.querySelector("video");
+        if (!videoElement) {
+            return;
+        }
+        videoElement.volume = 0.2;
         const playButton = document.getElementById("play");
         if (videoElement && playButton) {
             const handlePlayB = () => {
@@ -25,8 +29,12 @@ export default function Overview() {
     , []);
 
     function handlePlay() {
-        document?.querySelector("video")?.play();
-        //hide button
+        const video = document.querySelector("video");
+        if (!video) {
+            return;
+        }
+        video.volume = 0.5;
+        video.play();
         const button = document.getElementById("play");
         if (button) {
             button.style.display = "none";
@@ -35,7 +43,7 @@ export default function Overview() {
 
     return (<>
         <HomeLink/>
-        <YouTubeVideo src={"_cgu1AI6AZo"}/>
+        <Video src={process.env.NEXT_PUBLIC_S3_ENDPOINT+"2025.mp4"}/>
         <button id="play" className="playbutton" onClick={handlePlay}>Play</button>
     </>);
 
