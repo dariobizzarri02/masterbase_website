@@ -117,7 +117,7 @@ export function TeamItem({item}: {item: any}) {
     if(isLeft) return (
         <div className="teamitem">
             <div className="teamblock">
-                <img src={process.env.NEXT_PUBLIC_MINIO_URL+"/masterbase/team/"+item.thumbnail+".png"} alt={item.display}/>
+                <img src={process.env.NEXT_PUBLIC_MINIO_URL+"masterbase/team/"+item.thumbnail+".png"} alt={item.display}/>
             </div>
             <div className="teamblock">
                 <h3>{item.display}</h3>
@@ -132,7 +132,7 @@ export function TeamItem({item}: {item: any}) {
                 <p>{item.roles}</p>
             </div>
             <div className="teamblock">
-                <img src={process.env.NEXT_PUBLIC_MINIO_URL+"/masterbase/team/"+item.thumbnail+".png"} alt={item.display}/>
+                <img src={process.env.NEXT_PUBLIC_MINIO_URL+"masterbase/team/"+item.thumbnail+".png"} alt={item.display}/>
             </div>
         </div>
     );
