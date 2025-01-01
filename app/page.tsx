@@ -13,7 +13,7 @@ export default function Home() {
     ];
 
     return (<>
-        <BackgroundVideo src={process.env.NEXT_PUBLIC_S3_ENDPOINT+"masterbase.mp4"}/>
+        <BackgroundVideo src={process.env.NEXT_PUBLIC_MINIO_URL+"masterbase/masterbase.mp4"}/>
         <NavBar links={links}/>
         <MainTitle title="MasterBase" subtitle="Guild"/>
         <Logo/>

@@ -43,7 +43,7 @@ export default function Overview() {
 
     return (<>
         <HomeLink/>
-        <Video src={process.env.NEXT_PUBLIC_S3_ENDPOINT+"2025.mp4"}/>
+        <Video src={process.env.NEXT_PUBLIC_MINIO_URL+"masterbase/2025.mp4"}/>
         <button id="play" className="playbutton" onClick={handlePlay}>Play</button>
     </>);
 
