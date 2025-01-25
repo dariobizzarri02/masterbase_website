@@ -19,7 +19,6 @@ export default function Team() {
             url: process.env.NEXT_PUBLIC_BACKEND_ENDPOINT+"/team"
         })
             .then(response => {
-                console.log(response.data);
                 setTeam(response.data);
             })
     }

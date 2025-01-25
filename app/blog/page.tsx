@@ -19,7 +19,6 @@ export default function Blog() {
             url: process.env.NEXT_PUBLIC_BACKEND_ENDPOINT+"/feed/"+count
         })
             .then(response => {
-                console.log(response.data);
                 setFeed(response.data);
             })
     }

@@ -19,7 +19,6 @@ export default function Join() {
             url: process.env.NEXT_PUBLIC_BACKEND_ENDPOINT+"/jobs"
         })
             .then(response => {
-                console.log(response.data);
                 setJobs(response.data);
             })
     }
