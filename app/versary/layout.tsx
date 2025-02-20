@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Head from 'next/head'
 
 export const metadata: Metadata = {
-  title: 'Versary 2024 - MasterBase',
-  description: 'Festeggiando 7 anni di MasterBase',
+  title: 'Versary 2025',
+  description: 'Festeggiando un nuovo capitolo!',
 }
 
 export default function RootLayout({

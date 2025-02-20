@@ -15,17 +15,22 @@ export default function Overview() {
         <HomeLink/>
         <img className="bg bgplus" src="/versary.jpg" alt="background"/>
         <NavBar links={links}/>
-        <h1 className="title">VERSARY 2024</h1>
-        <h2>Festeggiando 7 anni di MasterBase</h2>
+        <h1 className="title">VERSARY 2025</h1>
+        <h2>Festeggiando un nuovo capitolo!</h2>
         <div className="textspace"/>
         <p className="walloftextv">
-            La MasterBase compie 7 anni!
+            8 anni di attività... E 4 anni di Versary, la nostra festa ufficiale!
+        </p>
+        <h2 className="wotitle">Disclaimer</h2>
+        <p className="walloftextv">
+            L&apos;organizzazione è ancora in corso, e le informazioni riportate sono suscettibili di cambiamenti.
             <br/>
-            E per il terzo anno di fila, siamo lieti di presentarvi il Versary, la festa ufficiale della gilda.
+            Per rimanere aggiornati, vi consigliamo di mantenere monitorata la pagina.
+            <br/>
         </p>
         <h2 className="wotitle">Dove e quando?</h2>
         <p className="walloftextv">
-            L&apos;evento si terrà a Reggio Emilia da sabato 21 a domenica 22 settembre 2024.
+            L&apos;evento si terrà a Reggio Emilia da sabato 20 a domenica 21 settembre 2025.
             Ora di ritrovo e luogo preciso verranno comunicati in seguito sul gruppo e sul canale WhatsApp ufficiali dell&apos;evento.
         </p>
         <h2 className="wotitle">Features</h2>
@@ -33,11 +38,11 @@ export default function Overview() {
             Tra le features dell&apos;evento contiamo:
             <br/>
             <br/>
-            - Magliette ufficiali della gilda (prenotazione nel modulo di iscrizione)!
+            - Merchandise ufficiale!
             <br/>
-            - Concerto dal vivo!
+            - Musica dal vivo!
             <br/>
-            - Musica e karaoke!
+            - Talent show!
             <br/>
             - Tante attività e proiezioni in programma!
             <br/>
@@ -47,18 +52,13 @@ export default function Overview() {
             <br/>
             - Nottata in sacco a pelo!
             <br/>
-            - Il giorno dopo, giro della città e pranzo a base di sushi!
+            - Il giorno dopo, giro della città!
         </p>
-        <h2 className="wotitle">Iscrizione</h2>
+        <h2 className="wotitle">Preiscrizione</h2>
         <p className="walloftextv">
-            Per iscrivervi all&apos;evento, compilate il modulo di iscrizione che trovate <a className="inline" href="/versary/subscribe">qui</a>.
+            Per preiscrivervi all&apos;evento, compilate il modulo di iscrizione che trovate <a className="inline" href="/versary/presubscribe">qui</a>.
             <br/>
-            Potete scegliere se partecipare alla serata, alla nottata e/o al pranzo del giorno dopo.
-            <br/>
-            Inoltre, potete prenotare la vostra maglietta ufficiale della gilda, scegliendo la taglia e eventuali optional.
-            <br/>
-            A seguito della compilazione del modulo, qualora il vostro indirizzo mail venga riconosciuto come valido dallo Staff, verrete aggiunti al gruppo e al canale WhatsApp ufficiali dell&apos;evento.
-            Se non venite aggiunti entro tre giorni dalla compilazione del modulo, contattate Entity su WhatsApp o su Discord (@mb_entity), eventualmente fornendo il vostro numero di telefono.
+            Ulteriori informazioni saranno riportate su questa pagina, per cui tenetevi aggiornati!
         </p>
         <h2 className="wotitle">Occorrente</h2>
         <p className="walloftextv">
@@ -66,23 +66,13 @@ export default function Overview() {
             <br/>
             - Per chi partecipa alla nottata, sacco a pelo e eventuali soldi per la colazione del giorno dopo.
             <br/>
-            - Per chi partecipa al pranzo del giorno dopo, soldi per il sushi.
+            - Per chi si trattiene il giorno dopo, soldi per il pranzo.
         </p>
         <h2 className="wotitle">Pagamenti</h2>
         <p className="walloftextv">
-            A breve verrà creato il fondo PayPal ufficiale dell&apos;evento, dove potrete versare i soldi per la vostra iscrizione.
+            A un mese dall'evento verrà creato il fondo PayPal ufficiale dell&apos;evento, dove potrete versare i soldi per la vostra iscrizione.
             <br/>
             Si raccomanda l&apos;utilizzo di PayPal per i pagamenti, in quanto è il metodo più sicuro e veloce, ma in caso non fosse possibile, potete effettuare il pagamento in contanti sul posto.
-            <br/>
-            Riportiamo di seguito i costi specificati nel modulo di iscrizione:
-            <br/>
-            - Serata: € 17
-            <br/>
-            - Maglietta base: € 7
-            <br/>
-            - Nome dorsale sulla maglietta: € 4
-            <br/>
-            - Logo dorsale sulla maglietta: € 6
         </p>
         <h2 className="wotitle">Vi aspettiamo numerosi!</h2>
         <div className="pagefoot"/>

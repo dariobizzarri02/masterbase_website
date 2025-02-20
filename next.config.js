@@ -80,8 +80,8 @@ const nextConfig = {
             },
             //subscription form
             {
-                source: '/versary/subscribe',
-                destination: 'https://forms.gle/RzFYLsVsJR7hj2Rb7',
+                source: '/versary/presubscribe',
+                destination: 'https://forms.gle/AXw33ugtWVtC2BxB9',
                 permanent: false
             },
             //subscriptions
