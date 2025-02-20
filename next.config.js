@@ -78,18 +78,12 @@ const nextConfig = {
                 destination: 'https://www.instagram.com/masterbasereggio',
                 permanent: false
             },
-            //subscription form
+            //presubscription form
             {
                 source: '/versary/presubscribe',
                 destination: 'https://forms.gle/AXw33ugtWVtC2BxB9',
                 permanent: false
             },
-            //subscriptions
-            {
-                source: '/versary/subscriptions',
-                destination: 'https://docs.google.com/forms/d/e/1FAIpQLScP7-Teh2LMVL_bfZb-85PT9F98SxB1MB_FUwsTkn5a5radVQ/viewanalytics',
-                permanent: false
-            }
         ]
     },
 }

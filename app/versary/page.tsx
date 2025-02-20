@@ -6,8 +6,7 @@ export default function Overview() {
 
     const links = [
         {href: "/", title: "Home"},
-        {href: "/versary/subscribe", title: "Subscribe"},
-        {href: "/versary/subscriptions", title: "Guests"},
+        {href: "/versary/presubscribe", title: "Presubscribe"},
         {href: "/links/igreggio", title: "Instagram"},
     ];
 
