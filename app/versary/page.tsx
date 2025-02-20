@@ -70,7 +70,7 @@ export default function Overview() {
         </p>
         <h2 className="wotitle">Pagamenti</h2>
         <p className="walloftextv">
-            A un mese dall'evento verrà creato il fondo PayPal ufficiale dell&apos;evento, dove potrete versare i soldi per la vostra iscrizione.
+            A un mese dall&apos;evento verrà creato il fondo PayPal ufficiale dell&apos;evento, dove potrete versare i soldi per la vostra iscrizione.
             <br/>
             Si raccomanda l&apos;utilizzo di PayPal per i pagamenti, in quanto è il metodo più sicuro e veloce, ma in caso non fosse possibile, potete effettuare il pagamento in contanti sul posto.
         </p>
