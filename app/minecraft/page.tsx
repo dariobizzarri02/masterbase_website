@@ -10,8 +10,8 @@ export default function Minecraft() {
         <div className="color-filter"/>
         <img className="bg" src="/minecraft.png" alt="bg" />
         <h1>MASTERCRAFT</h1>
-        <h2>IP: mc.masterbaseguild.it</h2>
-        <h2>Version: 1.20.1</h2>
+        <h2>IP: mc.masterbase.team</h2>
+        <h2>Version: 1.21.4</h2>
         <Link className='map-button' href="/minecraft/map">
             View Map
         </Link>
