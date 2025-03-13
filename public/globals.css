@@ -139,7 +139,7 @@ body {
     height: 100%;
     object-fit: cover;
     transform: scale(1.1);
-    filter: blur(0.5vw) brightness(0.5) opacity(0.75);
+    filter: blur(0.25vw) brightness(0.75) opacity(0.75);
 }
 
 .bgplus {
@@ -405,17 +405,6 @@ ul {
     background-color: rgb(0, 21, 53);
 }
 
-.curseforge-button {
-    display: inline-block;
-    background-color: #f16436;
-    color: black;
-    width: 24vw;
-}
-
-.curseforge-button:hover {
-    background-color: #d14e2f;
-}
-
 .modrinth-button {
     display: inline-block;
     background-color: #1b1b1b;
@@ -427,16 +416,8 @@ ul {
     background-color: #1e1e1e;
 }
 
-.curseforge-icon {
-    height: 2vw;
-    display: inline-block;
-    margin-right: 1vw;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-}
-
 .modrinth-icon {
-    height: 0.19vw;
+    height: 3vw;
     display: inline-block;
     margin-right: 1vw;
     margin-top: 1vw;
