@@ -10,6 +10,7 @@ export default function Home() {
         {href: "/blog", title: "Blog"},
         {href: "/minecraft", title: "Minecraft"},
         {href: "/team", title: "Team"},
+        {href: "/versary", title: "Versary"},
     ];
 
     return (<>
