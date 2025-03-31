@@ -21,7 +21,7 @@ const nextConfig = {
             //discord
             {
                 source: '/links/discord',
-                destination: 'https://discord.gg/t8Q9TQtzXX',
+                destination: 'https://discord.gg/FfRBaAnBgQ',
                 permanent: false
             },
             //instagram
