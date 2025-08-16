@@ -6,11 +6,11 @@ import Link from "next/link";
 export default function Home() {
 
     const links = [
-        {href: "/links", title: "Links"},
-        {href: "/blog", title: "Blog"},
-        {href: "/minecraft", title: "Minecraft"},
-        {href: "/team", title: "Team"},
-        {href: "/versary", title: "Versary"},
+        {href: "/links", title: "Links", newtab: false},
+        {href: "/blog", title: "Blog", newtab: false},
+        {href: "/minecraft", title: "Minecraft", newtab: false},
+        {href: "/team", title: "Team", newtab: false},
+        {href: "/versary", title: "Versary", newtab: false},
     ];
 
     return (<>
