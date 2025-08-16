@@ -5,9 +5,9 @@ import { HomeLink, NavBar } from "@/app/commons";
 export default function Overview() {
 
     const links = [
-        {href: "/", title: "Home"},
-        {href: "/versary/presubscribe", title: "Presubscribe"},
-        {href: "/links/igreggio", title: "Instagram"},
+        {href: "/", title: "Home", newtab: false},
+        {href: "/versary/presubscribe", title: "Presubscribe", newtab: true},
+        {href: "/links/igreggio", title: "Instagram", newtab: true},
     ];
 
     return (<>
@@ -32,26 +32,22 @@ export default function Overview() {
             L&apos;evento si terrà a Reggio Emilia da sabato 20 a domenica 21 settembre 2025.
             Ora di ritrovo e luogo preciso verranno comunicati in seguito sul gruppo e sul canale WhatsApp ufficiali dell&apos;evento.
         </p>
-        <h2 className="wotitle">Features</h2>
+        <h2 className="wotitle">Svolgimento</h2>
         <p className="walloftextv">
-            Tra le features dell&apos;evento contiamo:
+            Tra i programmi dell&apos;evento contiamo:
             <br/>
             <br/>
             - Merchandise ufficiale!
             <br/>
             - Musica dal vivo!
             <br/>
-            - Talent show!
-            <br/>
-            - Tante attività e proiezioni in programma!
+            - Attività e proiezioni organizzate!
             <br/>
             - Servizio fotografico!
             <br/>
             - Cena a base di pizza!
             <br/>
             - Nottata in sacco a pelo!
-            <br/>
-            - Il giorno dopo, giro della città!
         </p>
         <h2 className="wotitle">Preiscrizione</h2>
         <p className="walloftextv">

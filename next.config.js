@@ -84,6 +84,12 @@ const nextConfig = {
                 destination: 'https://forms.gle/AXw33ugtWVtC2BxB9',
                 permanent: false
             },
+            // modpack
+            {
+                source: '/minecraft/modpack',
+                destination: 'https://www.mediafire.com/file/87saptemqpq255j/Vanilla_7.mrpack/file',
+                permanent: false
+            }
         ]
     },
 }

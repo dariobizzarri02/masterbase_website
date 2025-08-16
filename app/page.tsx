@@ -21,8 +21,8 @@ export default function Home() {
         <Link className="homebutton" href="/overview">Watch the Overview</Link>
         <div className="walloftext">
         <p>La MasterBase è una community nata nel lontano 2017, con progetti distribuiti su tutto il panorama gaming/nerd.</p>
-        <p>Siamo presenti su una moltitudine di titoli, tra cui League of Legends, Valorant, Minecraft, OverWatch, Rocket League, Warframe e AoTTG 2.</p>
-        <p>Tra i progetti portati avanti, contiamo numerosi tornei ed eventi, una lore dedicata alla community, un server di Minecraft ufficiale, una produzione musicale originale e frequenti live streaming.</p>
+        <p>Siamo presenti su una moltitudine di titoli, tra cui Minecraft, League of Legends, Marvel Rivals, Valorant, Rocket League, Warframe, OverWatch e AoTTG 2.</p>
+        <p>Tra i progetti portati avanti, contiamo numerosi tornei ed eventi, una lore collaborativa, un server di Minecraft ufficiale, produzioni musicali originali e frequenti live streaming.</p>
         <p>Inoltre, sono in arrivo tanti altri progetti, tra cui in particolare un videogioco ufficiale e un manuale GDR ambientato nel nostro universo narrativo. Vieni a trovarci!</p>
         </div>
     </>);
