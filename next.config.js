@@ -78,10 +78,16 @@ const nextConfig = {
                 destination: 'https://www.instagram.com/masterbasereggio',
                 permanent: false
             },
-            //presubscription form
+            //subscription form
             {
-                source: '/versary/presubscribe',
-                destination: 'https://forms.gle/AXw33ugtWVtC2BxB9',
+                source: '/versary/subscribe',
+                destination: 'https://forms.gle/YuwGCTYhK1hCgEg66',
+                permanent: false
+            },
+            //secret
+            {
+                source: '/versary/secret',
+                destination: 'https://www.youtube.com/watch?v=_cgu1AI6AZo&list=PLzBACQUM9uciXEGfGSbLUgIME8bhI5oGE',
                 permanent: false
             },
             // modpack

@@ -6,7 +6,7 @@ export default function Overview() {
 
     const links = [
         {href: "/", title: "Home", newtab: false},
-        {href: "/versary/presubscribe", title: "Presubscribe", newtab: true},
+        {href: "/versary/subscribe", title: "Subscribe", newtab: true},
         {href: "/links/igreggio", title: "Instagram", newtab: true},
     ];
 
@@ -19,13 +19,6 @@ export default function Overview() {
         <div className="textspace"/>
         <p className="walloftextv">
             8 anni di attività... E 4 anni di Versary, la nostra festa ufficiale!
-        </p>
-        <h2 className="wotitle">Disclaimer</h2>
-        <p className="walloftextv">
-            L&apos;organizzazione è ancora in corso, e le informazioni riportate sono suscettibili di cambiamenti.
-            <br/>
-            Per rimanere aggiornati, vi consigliamo di mantenere monitorata la pagina.
-            <br/>
         </p>
         <h2 className="wotitle">Dove e quando?</h2>
         <p className="walloftextv">
@@ -49,9 +42,9 @@ export default function Overview() {
             <br/>
             - Nottata in sacco a pelo!
         </p>
-        <h2 className="wotitle">Preiscrizione</h2>
+        <h2 className="wotitle">Iscrizione</h2>
         <p className="walloftextv">
-            Per preiscrivervi all&apos;evento, compilate il modulo di iscrizione che trovate <a className="inline" href="/versary/presubscribe">qui</a>.
+            Per iscrivervi all&apos;evento, compilate il modulo che trovate <a className="inline" href="/versary/subscribe">qui</a>.
             <br/>
             Ulteriori informazioni saranno riportate su questa pagina, per cui tenetevi aggiornati!
         </p>
@@ -68,6 +61,8 @@ export default function Overview() {
             A un mese dall&apos;evento verrà creato il fondo PayPal ufficiale dell&apos;evento, dove potrete versare i soldi per la vostra iscrizione.
             <br/>
             Si raccomanda l&apos;utilizzo di PayPal per i pagamenti, in quanto è il metodo più sicuro e veloce, ma in caso non fosse possibile, potete effettuare il pagamento in contanti sul posto.
+            <br/>
+            Il costo base dell&apos;iscrizione è di €15.
         </p>
         <h2 className="wotitle">Vi aspettiamo numerosi!</h2>
         <div className="pagefoot"/>
