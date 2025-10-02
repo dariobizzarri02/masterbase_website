@@ -2,16 +2,16 @@
 
 import { HomeLink } from "@/app/commons";
 
-export default function Minecraft() {
+export default function Combat() {
 
     return (<>
         <HomeLink/>
         <div className="color-filter"/>
-        <img className="bg" src="/combat.png" alt="bg" />
+        <img className="bg" src="/minecraft/combat.png" alt="bg" />
         <h1>COMBAT CLIENT</h1>
         <div className="button-container">
             <div className="button-column">
-                <a className="client-button" href="/minecraft/modpacks/combat" target="_blank" rel="noreferrer">
+                <a className="client-button" href="/minecraft/combat/download" target="_blank" rel="noreferrer">
                     Download
                 </a>
                 <a className="curseforge-button" href="https://www.curseforge.com/download/app" target="_blank" rel="noreferrer">

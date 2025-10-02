@@ -92,37 +92,37 @@ const nextConfig = {
             }, */
             //aincrad modpack
             {
-                source: '/minecraft/modpacks/aincrad',
+                source: '/minecraft/aincrad/download',
                 destination: 'https://www.mediafire.com/file/3qrrtdqbvhj1cnj/Aincrad-7.zip/file',
                 permanent: false
             },
             //apocalypse modpack
             {
-                source: '/minecraft/modpacks/apocalypse',
+                source: '/minecraft/apocalypse/download',
                 destination: 'https://www.mediafire.com/file/hyzrsswhfqgdkcb/Apocalypse-2.zip/file',
                 permanent: false
             },
             //classic modpack
             {
-                source: '/minecraft/modpacks/classic',
+                source: '/minecraft/classic/download',
                 destination: 'https://www.mediafire.com/file/vgm2bt7phlqu91z/Classic-2.zip/file',
                 permanent: false
             },
             //combat modpack
             {
-                source: '/minecraft/modpacks/combat',
+                source: '/minecraft/combat/download',
                 destination: 'https://www.mediafire.com/file/sxw6fwql9kuaayy/Combat-3.zip/file',
                 permanent: false
             },
             //nostalgia modpack
             {
-                source: '/minecraft/modpacks/nostalgia',
+                source: '/minecraft/nostalgia/download',
                 destination: 'https://www.mediafire.com/file/s5ou5seda42m5ai/Nostalgia-2.zip/file',
                 permanent: false
             },
             //vanilla modpack
             {
-                source: '/minecraft/modpacks/vanilla',
+                source: '/minecraft/vanilla/client/download',
                 destination: 'https://www.mediafire.com/file/zacf9lhsrjanuuc/Vanilla-8.mrpack/file',
                 permanent: false
             },

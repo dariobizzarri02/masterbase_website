@@ -2,16 +2,16 @@
 
 import { HomeLink } from "@/app/commons";
 
-export default function Minecraft() {
+export default function VanillaClient() {
 
     return (<>
         <HomeLink/>
         <div className="color-filter"/>
-        <img className="bg" src="/vanillaclient.png" alt="bg" />
+        <img className="bg" src="/minecraft/vanillaclient.png" alt="bg" />
         <h1>VANILLA CLIENT</h1>
         <div className="button-container">
             <div className="button-column">
-                <a className="client-button" href="/minecraft/modpacks/vanilla" target="_blank" rel="noreferrer">
+                <a className="client-button" href="/minecraft/vanilla/client/download" target="_blank" rel="noreferrer">
                     Download
                 </a>
                 <a className="modrinth-button" href="https://modrinth.com/app" target="_blank" rel="noreferrer">

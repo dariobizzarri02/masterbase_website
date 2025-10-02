@@ -3,12 +3,12 @@
 import Link from 'next/link';
 import { HomeLink } from "@/app/commons";
 
-export default function Minecraft() {
+export default function Vanilla() {
 
     return (<>
         <HomeLink/>
         <div className="color-filter"/>
-        <img className="bg" src="/vanilla.png" alt="bg" />
+        <img className="bg" src="/minecraft/vanilla.png" alt="bg" />
         <h1>VANILLA SERVER</h1>
         <h2>IP: mc.masterbase.team</h2>
         <h2>Version: 1.21.4</h2>
