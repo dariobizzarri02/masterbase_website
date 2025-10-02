@@ -5,6 +5,9 @@ import { GlobalContextProvider } from './Context/store'
 export const metadata: Metadata = {
   title: 'MasterBase',
   description: 'Gaming, esports, musica e tanto altro!',
+  icons: {
+    icon: "/favicon.svg",
+  }
 }
 
 export default function RootLayout({

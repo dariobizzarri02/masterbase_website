@@ -43,14 +43,14 @@ export function HomeLink() {
 
     return (
         <Link className="homelink" title="Return to Home" href="/">
-            <img src="/logo_nobg_squared.png" alt="logo" />
+            <img src="/logo_vector.svg" alt="logo" />
         </Link>
     );
 }
 
 export function Logo() {
     return (
-        <img className="logo" src="/logo_nobg_squared.png" alt="logo" />
+        <img className="logo" src="/logo_vector.svg" alt="logo" />
     );
 }
 
