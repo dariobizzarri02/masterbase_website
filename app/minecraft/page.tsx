@@ -17,7 +17,7 @@ export default function Minecraft() {
         </Link>
         <div className="button-container">
             <div className="button-column">
-                <a className="client-button" href="/minecraft/modpack" target="_blank" rel="noreferrer">
+                <a className="client-button" href="/minecraft/modpacks/vanilla" target="_blank" rel="noreferrer">
                     Download Optional Modpack
                 </a>
                 <a className="modrinth-button" href="https://modrinth.com/app" target="_blank" rel="noreferrer">

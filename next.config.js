@@ -78,7 +78,7 @@ const nextConfig = {
                 destination: 'https://www.instagram.com/masterbasereggio',
                 permanent: false
             },
-            //subscription form
+            /* //subscription form
             {
                 source: '/versary/subscribe',
                 destination: 'https://forms.gle/YuwGCTYhK1hCgEg66',
@@ -89,13 +89,43 @@ const nextConfig = {
                 source: '/versary/secret',
                 destination: 'https://www.youtube.com/watch?v=_cgu1AI6AZo&list=PLzBACQUM9uciXEGfGSbLUgIME8bhI5oGE',
                 permanent: false
-            },
-            // modpack
+            }, */
+            //aincrad modpack
             {
-                source: '/minecraft/modpack',
-                destination: 'https://www.mediafire.com/file/87saptemqpq255j/Vanilla_7.mrpack/file',
+                source: '/minecraft/modpacks/aincrad',
+                destination: 'https://www.mediafire.com/file/3qrrtdqbvhj1cnj/Aincrad-7.zip/file',
                 permanent: false
-            }
+            },
+            //apocalypse modpack
+            {
+                source: '/minecraft/modpacks/apocalypse',
+                destination: 'https://www.mediafire.com/file/hyzrsswhfqgdkcb/Apocalypse-2.zip/file',
+                permanent: false
+            },
+            //classic modpack
+            {
+                source: '/minecraft/modpacks/classic',
+                destination: 'https://www.mediafire.com/file/vgm2bt7phlqu91z/Classic-2.zip/file',
+                permanent: false
+            },
+            //combat modpack
+            {
+                source: '/minecraft/modpacks/combat',
+                destination: 'https://www.mediafire.com/file/sxw6fwql9kuaayy/Combat-3.zip/file',
+                permanent: false
+            },
+            //nostalgia modpack
+            {
+                source: '/minecraft/modpacks/nostalgia',
+                destination: 'https://www.mediafire.com/file/s5ou5seda42m5ai/Nostalgia-2.zip/file',
+                permanent: false
+            },
+            //vanilla modpack
+            {
+                source: '/minecraft/modpacks/vanilla',
+                destination: 'https://www.mediafire.com/file/zacf9lhsrjanuuc/Vanilla-8.mrpack/file',
+                permanent: false
+            },
         ]
     },
 }

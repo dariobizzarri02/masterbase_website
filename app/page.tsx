@@ -10,7 +10,7 @@ export default function Home() {
         {href: "/blog", title: "Blog", newtab: false},
         {href: "/minecraft", title: "Minecraft", newtab: false},
         {href: "/team", title: "Team", newtab: false},
-        {href: "/versary", title: "Versary", newtab: false},
+        /* {href: "/versary", title: "Versary", newtab: false}, */
     ];
 
     return (<>
