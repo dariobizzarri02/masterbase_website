@@ -10,29 +10,29 @@
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url("/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-family: "LTSipText";
+    src: url("/LTSipText/LTSipText-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url("/Roboto/Roboto-Bold.ttf") format("truetype");
+    font-family: "LTSipText";
+    src: url("/LTSipText/LTSipText-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url("/Roboto/Roboto-Italic.ttf") format("truetype");
+    font-family: "LTSipText";
+    src: url("/LTSipText/LTSipText-Italic.ttf") format("truetype");
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Roboto";
-    src: url("/Roboto/Roboto-BoldItalic.ttf") format("truetype");
+    font-family: "LTSipText";
+    src: url("/LTSipText/LTSipText-BoldItalic.ttf") format("truetype");
     font-weight: bold;
     font-style: italic;
 }
@@ -44,7 +44,7 @@
     --quaternary: #E0EDE0;
     --quinary: #DEE2A6;
     --error: #FF0000;
-    --font: "Roboto";
+    --font: "LTSipText";
 }
 
 body {
@@ -57,6 +57,10 @@ body {
 
 .inline {
     color: rgb(149, 142, 255);
+}
+
+.separator {
+    margin-top: 35vw;
 }
 
 .homebutton {
@@ -73,7 +77,7 @@ body {
     width: 28vw;
     margin: 1vw;
     padding: 1vw;
-    margin-top: 35vw;
+    margin-top: 1vw;
     margin-bottom: 5vw;
     display: block;
 }
@@ -98,13 +102,13 @@ body {
 }
 
 .walloftext {
-    font-family: 'Roboto';
+    font-family: 'LTSipText';
     font-weight: normal;
     font-style: normal;
     font-size: 3vh;
     padding-left: 14vw;
     padding-right: 14vw;
-    padding-bottom: 14vw;
+    padding-bottom: 1vw;
     text-align: justify;
 }
 
@@ -117,7 +121,7 @@ body {
 }
 
 .walloftextv {
-    font-family: 'Roboto';
+    font-family: 'LTSipText';
     font-weight: normal;
     font-style: normal;
     font-size: 3vh;
@@ -126,6 +130,10 @@ body {
     padding-right: 8vw;
     padding-bottom: 8vh;
     text-align: center;
+}
+
+.footer {
+    padding-bottom: 14vh;
 }
 
 .pagefoot {
@@ -180,7 +188,7 @@ body {
 
 .feeditem {
     display: block;
-    font-family: 'Roboto';
+    font-family: 'LTSipText';
     margin: 5vw;
     padding: 2vw;
     text-align: left;
@@ -204,7 +212,7 @@ body {
 
 .teamitem {
     display: block;
-    font-family: 'Roboto';
+    font-family: 'LTSipText';
     font-size: 1.5vw;
     margin: 5vw;
     padding: 2vw;
@@ -231,7 +239,7 @@ body {
 
 .teamitemright {
     display: block;
-    font-family: 'Roboto';
+    font-family: 'LTSipText';
     font-size: 1.5vw;
     margin: 5vw;
     padding: 2vw;
@@ -254,7 +262,7 @@ body {
 
 .jobsitem {
     display: block;
-    font-family: 'Roboto';
+    font-family: 'LTSipText';
     font-size: 1.5vw;
     margin: 5vw;
     padding: 2vw;

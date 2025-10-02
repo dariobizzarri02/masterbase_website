@@ -126,6 +126,12 @@ const nextConfig = {
                 destination: 'https://www.mediafire.com/file/zacf9lhsrjanuuc/Vanilla-8.mrpack/file',
                 permanent: false
             },
+            //daimon
+            {
+                source: '/daimon',
+                destination: 'https://daimon.world',
+                permanent: false
+            },
         ]
     },
 }
