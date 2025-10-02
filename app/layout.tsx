@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'MasterBase',
   description: 'Gaming, esports, musica e tanto altro!',
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favicon.png",
   }
 }
 
